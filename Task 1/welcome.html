@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>StudyMate</title>
+    </head>
+    <body>
+    <style>
+        .centering{
+            text-align:center;
+        }
+        .image1{
+            float:center;
+            width:25%;
+            height:25%;
+        }
+        body{
+            background-color: antiquewhite;
+        }
+        .btn{
+            color:black;
+            background-color: aquamarine;
+            padding:16px;
+            border:none;
+            min-width: 160px;
+        }
+        .dropdown{
+            position:relative;
+            display:inline-block;
+        }
+        .dropdown_content{
+            display:none;
+            background-color: azure;
+            min-width:160px;    
+        }
+        .dropdown_content a{
+            display:block;
+            color:black;
+        }
+        .dropdown_content a:hover{
+            background-color:burlywood;
+        }
+        .btn:hover{
+            background-color: rgb(113, 113, 247);
+        }
+        .dropdown:hover .dropdown_content{
+            display:block;
+        }
+    </style>
+        <header>
+        <h1 class="centering" style="background-color: rgb(176, 241, 158);">Welcome to Study-Mate</h1>
+        <h4 class="centering" style="background-color:chartreuse;">Your go to platform for Studying</h4>
+        </header>
+        <button class="btn" style="float:left;"><a href='#' style="color:black;">Home</a></button>
+        <div class="dropdown">
+            <button class="btn">Features</button>
+            <div class="dropdown_content">
+                <a href="grade.html">Grades</a>
+                <a href="courses.html">Courses</a>
+                <a href="grading criteria.html">Grading Rules</a>
+            </div>
+        </div>
+        <nav style="float:right">
+        <div class="dropdown">
+            <button class="btn"><a href='contact.html' style="color:black;">Contact</a></button>
+        </div>
+        </nav>
+        
+        <br><br><br><br>
+        <center><img src="image1.jpg" class="image1"></center>
+    </body>
+</html>
